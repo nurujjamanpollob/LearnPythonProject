@@ -1,5 +1,5 @@
 # LearnPythonProject
-I have started learning python syntax for ML project, This project contains code that helps other learner too.
+I have started learning python syntax for ML project, This project contains code that should help other learner too.
 
 ## Topics covered now
 
