@@ -30,4 +30,20 @@ myStr = str("Hi this is string with explicit type defined")
 # Print that String
 print(myStr)
 
-# Define a 
+# Define a Boolean (Value only True and False)
+myBooleanObj = True
+
+# Print
+print("This is a python boolean, value is %s " % myBooleanObj)
+
+# Define a Boolean (Explicitly defined)
+myBoolean = bool(False)
+
+# Print
+print("Python boolean with explicitly type defined, value is %s" % myBoolean)
+
+# Define a Byte Data type(Explicitly defined)
+myByte = bytes(10)
+
+# Print
+print("Python byte data type example, value is %s" % myByte)
