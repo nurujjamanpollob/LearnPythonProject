@@ -1,3 +1,9 @@
+"""
+    Python mathematics operator example - the code example follows precedence order
+    from lowest to highest: '+' -> '-' -> '*' > '/' > '%' > '**'
+
+"""
+
 # Define a simple addition operator
 simpleAddition = 2 + 2
 
@@ -37,3 +43,11 @@ simpleMod = 26 % 8  # Should return 2
 
 # Print
 print(" 26 mod 8 should left remainder of %s " % simpleMod)
+
+# Simple Exponent operator / Power function
+simplePower = 2 ** 3  # 2 ^ 3 in mathematics
+
+# Print
+print(" 2 pow 3 should equals %s" % simplePower)
+
+
