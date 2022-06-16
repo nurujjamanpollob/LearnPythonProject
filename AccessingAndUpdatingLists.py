@@ -80,7 +80,6 @@ print("Accessing list by negative index -3 returns %s" % basicList[-3])
 # Access by negative index, the fourth last index
 print("Accessing list by negative index -4 returns %s" % basicList[-4])
 
-
 """
     List slicing - accessing a range of list element
     
@@ -110,7 +109,6 @@ print("list slice range from 2 to last element is %s" % str(listSlice[2:]))
 # Print full element using slice
 print("list slice print full list %s" % str(listSlice[:]))
 
-
 """
     Updating a simple list example - We gonna create a list, and manipulate its element
 """
@@ -129,7 +127,6 @@ updateList[0] = 6
 
 # Print updated list
 print("The updated list is -> %s" % str(updateList))
-
 
 """
     Update a range of list element from a list example - We gonna create a list, 
@@ -157,7 +154,6 @@ updateListRange[1:4] = [1, 2]
 # Print updated list
 print("This list updated to -> %s" % str(updateListRange))
 
-
 # Update list from index 2 to end
 updateListRange[2:] = [1, 0]
 
@@ -175,7 +171,6 @@ updateListRange[:] = [2, 3, 4, 4, 3, 2]
 
 # Print updated list
 print("This list updated to -> %s" % str(updateListRange))
-
 
 """
     Python list append and extend a list example
@@ -196,3 +191,154 @@ extensibleList.extend([6, 7, 8, 9, 10])
 
 # Print updated list
 print("This list updated to -> %s" % str(extensibleList))
+
+"""
+    Python list concatenating and repeating
+"""
+
+# Create concatenable list
+listConcatRepeating = [1, 2, 3]
+
+# Concat another array
+listConcatRepeating += [4]
+
+# Print updated list
+print("This list updated to -> %s" % str(listConcatRepeating))
+
+# Repeat this list for 3 time
+listConcatRepeating *= 3
+
+# Print updated list
+print("This list updated to -> %s" % str(listConcatRepeating))
+
+"""
+    Python List insert example - Insert a element or another list of elements at given index
+"""
+
+# Create an insertable list
+listInsertable = [1, 2, 3, 4]
+
+# Insert 5 at index 4(last index + 1) so it's going to get a new index number
+listInsertable.insert(4, 5)
+
+# Print updated list
+print("This list updated to -> %s" % str(listInsertable))
+
+# Insert 0 at beginning index so other element index increased by +1
+listInsertable.insert(0, 0)
+
+# Print updated list
+print("This list updated to -> %s" % str(listInsertable))
+
+# Insert a list of element at given index range 0 - 6(End range is exclusive) so the whole array will get replaced
+listInsertable[0:6] = [1, 1, 2, 2]
+
+# Print updated list
+print("This list updated to -> %s" % str(listInsertable))
+
+# We're going to replace 1,1 from list with 0, 1
+listInsertable[0:2] = [0, 1]
+
+# Print updated list
+print("This list updated to -> %s" % str(listInsertable))
+
+"""
+    Python delete items from list example
+"""
+
+# Create deletable list
+listDeletable = [1, 2, 3, 4, 5]
+
+# delete element at given index, the delete index is exclusive
+listDeletable.remove(5)
+
+# Print updated list
+print("This list updated to -> %s" % str(listDeletable))
+
+# Alternative method to remove element from a list, delete index is inclusive
+del listDeletable[3]
+
+# Print updated list
+print("This list updated to -> %s" % str(listDeletable))
+
+# Another way to remove an element from list, delete index is inclusive
+listDeletable.pop(2)
+
+# Print updated list
+print("This list updated to -> %s" % str(listDeletable))
+
+# Let's restore deleted content for this list
+listDeletable.extend([3, 4, 5])
+
+# We are going to remove elements from a given index range, delete index is exclusive
+del listDeletable[0:3]
+
+# Print updated list
+print("This list updated to -> %s" % str(listDeletable))
+
+# Add a str for test
+listDeletable.append('f')
+
+# Print updated list
+print("This list updated to -> %s" % str(listDeletable))
+
+# Delete an element from the list, not by index but by item match
+listDeletable.remove('f')
+
+# Print updated list
+print("This list updated to -> %s" % str(listDeletable))
+
+# Use pop method to remove last element from the list
+listDeletable.pop()
+
+# Print updated list
+print("This list updated to -> %s" % str(listDeletable))
+
+# Use clear method to clear a list
+listDeletable.clear()
+
+# Print updated list
+print("This list updated to -> %s" % str(listDeletable))
+
+# Delete a list - If you try to access it, it will throw this error: name 'listDeletable' is not defined
+del listDeletable
+
+"""
+    List count method example - return the number of occurrence present in a 
+    list with given object
+    
+    For example, consider list = [1, 1, 2, 3, 4, 5] if we pass list.count(1) it should return 2
+    because the number 1 is presented two time in this list.
+"""
+
+# Create a simple list
+listSimpleCount = [1, 1, 2, 3, 4, 5]
+
+# Print Occurrence count
+print("The 1 is presented in this list for %s times" % str(listSimpleCount.count(1)))
+
+
+"""
+    List copy example - use copy() call to copy a list to another list
+"""
+
+# Create a copyable list
+listCopy = [1, 2]
+
+# Create another list to copy content from listCopy and assign it to new one
+listCopied = listCopy.copy()
+
+# Print updated list
+print("This list copied to -> %s" % str(listCopied))
+
+# Now, lets do selective copy and paste from one list to another
+selectiveCopyPaste = [4, 3, 'placeholder']
+
+# Print
+print("The initial list is -> %s" % str(selectiveCopyPaste))
+
+# Using Slicing operator to do copy and paste in selective index range
+selectiveCopyPaste[2:3] = listCopy.copy()
+
+# Print updated list
+print("The updated list is -> %s" % str(selectiveCopyPaste))
