@@ -35,3 +35,17 @@ print("This string lowercase to -> %s" % simpleString.lower())
 # this method checks that if a given phrase is contains in another
 # string and is start with that
 print("This string is starts with Hi -> %s" % simpleString.startswith("Hi"))
+
+# String endswith example
+# this method checks that if a given phrase is contains in another
+# string and is end with that
+print("This string is ends with Pollob -> %s" % simpleString.endswith("Pollob"))
+
+
+# string split example, split string by a factor and convert to a list
+# for example, string = "Hi, I am String" by using split method, with factor like whitespace
+# in this above string, it will generate a list object
+# like this -> ['Hi,', 'I', 'am', 'String']
+splitedStringList = simpleString.split(' ')
+print("This string -> %s is split by whitespace, and have generated this list -> %s"
+      % (simpleString, splitedStringList))

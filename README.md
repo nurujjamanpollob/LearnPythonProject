@@ -10,7 +10,8 @@ I have started learning python syntax for ML project, This project contains code
   <li> <a href="https://github.com/nurujjamanpollob/LearnPythonProject/blob/master/StringFormatting.py"> String Formatting </a> </li>
   <li> <a href="https://github.com/nurujjamanpollob/LearnPythonProject/blob/master/MathematicsOperators.py" target="_BLANK"> Python Mathematics Operators </a> </li>
   <li> <a href="https://github.com/nurujjamanpollob/LearnPythonProject/blob/master/Lists.py" target="_BLANK"> Create a List </a> </li>
-<li> <a href="https://github.com/nurujjamanpollob/LearnPythonProject/blob/master/AccessingAndUpdatingLists.py" target="_BLANK"> Accessing and updating a list </a> </li>
+  <li> <a href="https://github.com/nurujjamanpollob/LearnPythonProject/blob/master/AccessingAndUpdatingLists.py" target="_BLANK"> Accessing and updating a list </a> </li>
+  <li> <a href="https://github.com/nurujjamanpollob/LearnPythonProject/blob/master/BasicStringOperations.py"> Basic String Operations </a> </li>
  </ul>
  
  For a complete reference, visit here: <a href="https://docs.python.org/3/tutorial/introduction.html" target="_BLANK"> Introduction to Python </a>
