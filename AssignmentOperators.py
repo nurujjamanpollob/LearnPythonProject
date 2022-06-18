@@ -1,55 +1,144 @@
 """
-    This example going to show you how to assign value from one variable to another.
+    This example going to show you how to use python assigment operator to assign value to a variable
+
+    This example going to use integer and float for quick example
 """
 
-simpleVar = 100  # Simple variable
+var = 100  # Create simple var
 
-valueFromAnotherVariable = simpleVar + 100  # get value from simpleVar and add 100
-# and assign it to valueFromAnotherVariable
+var += 100  # Increment var value by 100 using '+=' assignment operator
 
 # Print
-print("valueFromAnotherVariable should print 200 because it taking value from simpleVar which value is 100 and add "
-      "100 with is should print %s" % valueFromAnotherVariable)
+print(var)
 
+# Replace var value
+var = 200
 
-"""
-    This example gonna merge a number with String and assign in new variable
-"""
-
-simpleNumber = int(7000)  # Explicit type declaration
-
-# Append number at %s(means as string) with % operator
-# Define type as string
-simpleString = str("Hi, I am a String, taking a integer from simpleNumber and append it here: %s" % simpleNumber)  #
+# Subtract example, where var has value of 200
+# We are going to subtract 100 from it, using '-=' assignment operator
+var -= 100
 
 # Print
-print(simpleString)
+print(var)
 
-"""
-    Now, I gonna manipulate simpleString and convert simpleNumber to String with str(object) method and assign to 
-    simpleString, and clear it's previous value. 
-"""
+# Replace var value
+var = 100
 
-simpleString = "Clear previous value, and assigned new value, and convert simpleNumber to a string and assign it, " \
-               "value from simpleNumber is : " + str(simpleNumber)
-
-# Print updated simpleString
-print(simpleString)
-
-
-"""
-    Simple update a float example
-"""
-
-simpleFloat = float(100.000)  # Explicit type declaration
+# Multiply example, where var has value of 100
+# We are going to multiply its current value with 3, using '*=' assignment operator
+var *= 3
 
 # Print
-print(simpleFloat)
+print(var)
 
-# Manipulate simpleFloat
-simpleFloat = "Hi, gonna replace it with a String"  # No explicit type declaration
+# Replace var value
+var = 300
 
-# Print manipulated simpleFloat
-print(simpleFloat)
+# Divide example, where var has value of 300
+# We are going to divide its current value with 3, using '/=' assignment operator
+var /= 3
 
+# Print
+print(var)
 
+# Replace var value
+var = 50
+
+# Modulus / Remainder example, where var has value of 50
+# We are going to divide its current value, and divide it with 3, using '%=' assignment operator
+var %= 3
+
+# Print
+print(int(var))
+
+# Replace var value
+var = 100
+
+# Divide example, where var has value of 100
+# We are going to do floor division of its current value with 2, using '//=' assignment operator
+var //= 2
+
+# Print
+print(var)
+
+# Replace var value
+var = 5
+
+# Exponent / Power example, where var has value of 5
+# We are now going to pow 5 with 3, using '**=' assignment operator
+var **= 3
+
+# Print
+print(var)
+
+# Replace var value
+var = 5
+
+# Going to do pow using alternative method
+var ^= 3
+
+# Print
+print(var)
+
+# Replace var value
+var = 5
+
+""""
+    Bitwise and example, which is intended to work with two equal binary representation
+    and perform the logical and operations in corresponding bits.
+    
+    For example, there are bits for number 5(decimal) and number 3(decimal) are:
+    
+    * 0101 (5)
+    * 0011 (3)
+    
+    So the operation compare each bit, if both of two compared position are 1, then the resulting binary representation
+    is (1 * 1) = 1, otherwise ( 0 * 1 ) or (1 * 0) or (0 * 0) = 0 should be zero
+    
+    So, if we compare (5 & 3) -> 0101
+                                 0011
+    _________________________________________
+                            Result: 0001 and 1 in decimal      
+                            
+    This example used bitwise and '&=' assigment operator                        
+    
+"""
+
+# Perform bitwise & operation on two integer
+var &= 3
+
+# Print
+print(var)
+
+# Replace var value
+var = 5
+
+""""
+    Bitwise or example, which is intended to work with two equal binary representation
+    and perform the logical inclusive or operations in corresponding bits.
+
+    For example, there are bits for number 5(decimal) and number 3(decimal) are:
+
+    * 0101 (5)
+    * 0011 (3)
+
+    So the operation compare each bit, if both of two compared position are 0, then the resulting binary representation
+    is 0, otherwise it is 1
+
+    So, if we compare (5 & 3) -> 0101
+                                 0011
+    _________________________________________
+                            Result: 0111 and 7 in decimal      
+
+    This example used bitwise and '|=' assigment operator                        
+
+"""
+
+# Perform bitwise & operation on two integer
+var |= 3
+
+# Print
+print(var)
+
+# Replace var value
+var = 5

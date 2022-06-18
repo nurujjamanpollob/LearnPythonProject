@@ -1,5 +1,5 @@
 """
-    Python mathematics operator example - the code example follows precedence order
+    Python Arithmetic operator example - the code example follows precedence order
     from lowest to highest: '+' -> '-' -> '*' > '/' > '%' > '**'
 
 """
