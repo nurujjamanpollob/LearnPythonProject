@@ -1,6 +1,10 @@
 # LearnPythonProject
 I have started learning python syntax for ML project, This project contains code that should help other learner too.
 
+This repository is created on <b>14 Jun 2022</b>
+
+And last updated on <b>19 Jun 2022</b>
+
 ## Topics covered now
 
 <ul>
