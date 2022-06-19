@@ -113,3 +113,37 @@ if not varX < 9:
 if not varX == 10:
 
     print("The statement will never get executed, because it is negated!")
+
+
+# This example going to show usages of 'in' operator
+# The 'in' operator used if a specified object is exists in an iterable object container, such as list
+simpleNumArray = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+
+# Use in operator to check if 10 is exists in the list
+
+if varX in simpleNumArray:
+
+    print(" The number %d is in this list -> %s" % (varX, simpleNumArray))
+
+# The 'is' operator to compare two object.
+# Unlike '==' operator, the 'is' operator compare object, at memory address level.
+
+# Create two identical memory address
+x = [1, 2, 3]
+y = [1, 2, 3]
+# Get value and memory address from x and assign to z
+z = x
+
+# Compare by 'is' operator
+if x is y:
+    print("compared x with y with 'is' operator, and it's done by value comparison")
+
+elif x is z:
+    print("compared x with z with 'is' operator, and it's done by memory address comparison")
+
+else:
+    print("Unknown comparison")
+
+
+
+
