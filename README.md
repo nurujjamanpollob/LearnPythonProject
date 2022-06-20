@@ -3,7 +3,7 @@ I have started learning python syntax for ML project, This project contains code
 
 This repository is created on <b>14 Jun 2022</b>
 
-And last updated on <b>19 Jun 2022</b>
+And last updated on <b>20 Jun 2022</b>
 
 ## Topics covered now
 
@@ -19,6 +19,7 @@ And last updated on <b>19 Jun 2022</b>
   <li> <a href="https://github.com/nurujjamanpollob/LearnPythonProject/blob/master/BasicStringOperations.py" target="_BLANK"> Basic String Operations </a> </li>
   <li> <a href="https://github.com/nurujjamanpollob/LearnPythonProject/blob/master/ConditionsAndComparisonAndLogicalOperators.py" target="_BLANK"> Comparison, Logical Operators and Condition Execution</a> </li>
   <li> <a href="https://github.com/nurujjamanpollob/LearnPythonProject/blob/master/Loops.py" target="_BLANK">Loops and switch + continue statement</a> </li>
+  <li> <a href="https://github.com/nurujjamanpollob/LearnPythonProject/blob/master/Functions.py" target="_BLANK">Functions</a> </li>
  </ul>
  
  For a complete reference, visit here: <a href="https://docs.python.org/3/tutorial/introduction.html" target="_BLANK"> Introduction to Python </a>
