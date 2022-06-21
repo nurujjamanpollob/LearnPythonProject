@@ -3,7 +3,9 @@ I have started learning python syntax for ML project, This project contains code
 
 This repository is created on <b>14 Jun 2022</b>
 
-And last updated on <b>20 Jun 2022</b>
+And last updated on <b>21 Jun 2022</b>
+
+Successfully covered python basic in seven days 🥰😍😘🤩🥳🎉🎉🎉🎉
 
 ## Topics covered now
 
@@ -22,6 +24,7 @@ And last updated on <b>20 Jun 2022</b>
   <li> <a href="https://github.com/nurujjamanpollob/LearnPythonProject/blob/master/Functions.py" target="_BLANK">Functions</a> </li>
   <li> <a href="https://github.com/nurujjamanpollob/LearnPythonProject/blob/master/ClassesAndObjects.py" target="_BLANK">Classes and Objects</a> </li>
   <li> <a href="https://github.com/nurujjamanpollob/LearnPythonProject/blob/master/Dictionaries.py" target="_BLANK">Dictionaries</a> </li>
+  <li> <a href="https://github.com/nurujjamanpollob/LearnPythonProject/blob/master/PackageAndModules.py" target="_BLANK">Package And Modules</a> </li>
  </ul>
  
  For a complete reference, visit here: <a href="https://docs.python.org/3/tutorial/introduction.html" target="_BLANK"> Introduction to Python </a>
