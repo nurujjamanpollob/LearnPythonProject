@@ -21,6 +21,7 @@ And last updated on <b>20 Jun 2022</b>
   <li> <a href="https://github.com/nurujjamanpollob/LearnPythonProject/blob/master/Loops.py" target="_BLANK">Loops and switch + continue statement</a> </li>
   <li> <a href="https://github.com/nurujjamanpollob/LearnPythonProject/blob/master/Functions.py" target="_BLANK">Functions</a> </li>
   <li> <a href="https://github.com/nurujjamanpollob/LearnPythonProject/blob/master/ClassesAndObjects.py" target="_BLANK">Classes and Objects</a> </li>
+  <li> <a href="https://github.com/nurujjamanpollob/LearnPythonProject/blob/master/Dictionaries.py" target="_BLANK">Dictionaries</a> </li>
  </ul>
  
  For a complete reference, visit here: <a href="https://docs.python.org/3/tutorial/introduction.html" target="_BLANK"> Introduction to Python </a>
