@@ -20,7 +20,7 @@ Successfully covered python basic in seven days 🥰😍😘🤩🥳🎉🎉🎉
   <li> <a href="https://github.com/nurujjamanpollob/LearnPythonProject/blob/master/AccessingAndUpdatingLists.py" target="_BLANK"> Accessing and updating a list </a> </li>
   <li> <a href="https://github.com/nurujjamanpollob/LearnPythonProject/blob/master/BasicStringOperations.py" target="_BLANK"> Basic String Operations </a> </li>
   <li> <a href="https://github.com/nurujjamanpollob/LearnPythonProject/blob/master/ConditionsAndComparisonAndLogicalOperators.py" target="_BLANK"> Comparison, Logical Operators and Condition Execution</a> </li>
-  <li> <a href="https://github.com/nurujjamanpollob/LearnPythonProject/blob/master/Loops.py" target="_BLANK">Loops and switch + continue statement</a> </li>
+  <li> <a href="https://github.com/nurujjamanpollob/LearnPythonProject/blob/master/Loops.py" target="_BLANK">Loops and break + continue statement</a> </li>
   <li> <a href="https://github.com/nurujjamanpollob/LearnPythonProject/blob/master/Functions.py" target="_BLANK">Functions</a> </li>
   <li> <a href="https://github.com/nurujjamanpollob/LearnPythonProject/blob/master/ClassesAndObjects.py" target="_BLANK">Classes and Objects</a> </li>
   <li> <a href="https://github.com/nurujjamanpollob/LearnPythonProject/blob/master/Dictionaries.py" target="_BLANK">Dictionaries</a> </li>
