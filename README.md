@@ -3,11 +3,11 @@ I have started learning python syntax for ML project, This project contains code
 
 This repository is created on <b>14 Jun 2022</b>
 
-And last updated on <b>21 Jun 2022</b>
+And last updated on <b>23 Jun 2022</b>
 
-Successfully covered python basic in seven days 🥰😍😘🤩🥳🎉🎉🎉🎉
+Successfully covered python basic in seven days<b>(14 Jun 2022 to 21 Jun 2022)</b> 🥰😍😘🤩🥳🎉🎉🎉🎉
 
-## Topics covered now
+## Functional Programming
 
 <ul>
   <li> <a href="https://github.com/nurujjamanpollob/LearnPythonProject/blob/master/PrintBasic.py" target="_BLANK">Printing a Basic value in console output</a></li>
@@ -26,5 +26,11 @@ Successfully covered python basic in seven days 🥰😍😘🤩🥳🎉🎉🎉
   <li> <a href="https://github.com/nurujjamanpollob/LearnPythonProject/blob/master/Dictionaries.py" target="_BLANK">Dictionaries</a> </li>
   <li> <a href="https://github.com/nurujjamanpollob/LearnPythonProject/blob/master/PackageAndModules.py" target="_BLANK">Package And Modules</a> </li>
  </ul>
+
+## Extra tutorial
+
+<ul>
+  <li> <a href="https://github.com/nurujjamanpollob/LearnPythonProject/blob/master/ProgramEntryAndCommandLineArgs.py" target="_BLANK">Program Entry Function and Parsing Command Line Argument</a> </li>
+</ul>
  
  For a complete reference, visit here: <a href="https://docs.python.org/3/tutorial/introduction.html" target="_BLANK"> Introduction to Python </a>
